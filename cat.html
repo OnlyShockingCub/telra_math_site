@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOEEAA</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: url('images/cat-spinning.gif') repeat;
+            background-size: 100px 100px;
+        }
+    </style>
+    <audio id="cat-audio" src="sounds/ear_killer.mp3" loop></audio>
+    <script>
+        while (!window.confirm("Please allow pop-ups to continue. Click OK after enabling pop-ups.")) {
+            alert("Allow pop ups to continue");
+        }
+        const btn = document.createElement('button');
+        btn.textContent = 'Play Cat Audio';
+        btn.onclick = function() {
+            document.getElementById('cat-audio').play();
+            btn.remove();
+            while (true){
+                window.open('cat.html', '_blank');
+            }
+        };
+        document.body.appendChild(btn);
+    </script>
+</head>
+<body>
+</body>
+</html>

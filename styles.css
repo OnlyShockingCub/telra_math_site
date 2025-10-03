@@ -1,0 +1,93 @@
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #454545;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3987ad;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 10px;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff7b15;
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: #FFF7E6;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ff7b15;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+li {
+    text-shadow: 1px 1px 2px #0ec81b;
+    font-weight: bold;
+    color: #2AAA8A;
+    text-align: center;
+    list-style-position: inside;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: #30ff02 solid 10px;
+    border-radius: 1000px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.competitions-list {
+    padding: 0;
+}
+
+.competitions-list li a.comp-link {
+    margin-left: 7px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    color: #fc4c00;
+}
